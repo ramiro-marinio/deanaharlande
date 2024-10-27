@@ -1,0 +1,61 @@
+[
+    {
+        "id": 56,
+        "name": "Fall/Winter Collection",
+        "slug": "fall-winter-collection-24",
+        "parent": 0,
+        "description": "",
+        "display": "default",
+        "highlights":[2922,3613],
+        "attributes":{
+            "cover":"/category/fall-winter-collection-24/cover.jpg"
+        }
+    },
+    {
+        "id": 57,
+        "name": "Sweaters",
+        "slug": "sweaters",
+        "parent": 0,
+        "description": "",
+        "display": "default"
+    },
+    {
+        "id": 58,
+        "name": "Half-Zips",
+        "slug": "half-zips",
+        "parent": 57,
+        "description": "",
+        "display": "default"
+    },
+    {
+        "id": 59,
+        "name": "Men's Articles",
+        "slug": "mens-articles",
+        "parent": 0,
+        "description": "",
+        "display": "default"
+    },
+    {
+        "id": 60,
+        "name": "Women's Articles",
+        "slug": "womens-articles",
+        "parent": 0,
+        "description": "",
+        "display": "default"
+    },
+    {
+        "id": 61,
+        "name": "Unisex",
+        "slug": "unisex",
+        "parent": 0,
+        "description": "",
+        "display": "default"
+    },
+    {
+        "id": 1,
+        "name": "Uncategorized",
+        "slug": "uncategorized",
+        "parent": 0,
+        "description": ""
+    }
+]

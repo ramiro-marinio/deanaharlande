@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+:root {
+  --background: #ffffff;
+  --foreground: #0e0e0e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #07000e;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "Lora";
+  font-size: 14px;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+/* Hide scrollbar for IE, Edge and Firefox */
+ 
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

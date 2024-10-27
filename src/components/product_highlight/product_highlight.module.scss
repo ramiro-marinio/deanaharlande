@@ -1,0 +1,34 @@
+.productHighlightImage{
+    transition: all 0.4s ease;
+}
+.productHighlightImageHover{
+    scale: 1.1;
+}
+
+.productHighlight{
+    transition: scale 0.4s ease, filter 0.4s ease;
+    &:hover{
+        scale: 1.04;
+        cursor: pointer;
+    }
+    &:active{
+        scale: 1.01;
+        transition: scale 0.2s ease;
+        filter: brightness(0.9);
+    }
+}
+.productHighlightImageHide{
+    filter: blur(8px) opacity(0.8);
+}
+
+.productHighlightHide{
+    scale: 0.95;
+}
+
+.translateTransition{
+    transition: transform 0.4s ease, filter 0.4s ease;
+}
+.sideHide{
+    transform: translateX(-5%);
+    filter: opacity(0);
+}

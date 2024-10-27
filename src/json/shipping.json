@@ -1,0 +1,22 @@
+[
+    {
+        "id": 0,
+        "name": "Other Locations",
+        "order": 0
+    },
+    {
+        "id": 2,
+        "name": "United States (US)",
+        "order": 0
+    },
+    {
+        "id": 3,
+        "name": "Europe",
+        "order": 0
+    },
+    {
+        "id": 5,
+        "name": "Others",
+        "order": 0
+    }
+]
